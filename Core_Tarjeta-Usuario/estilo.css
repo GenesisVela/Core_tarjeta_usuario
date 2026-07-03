@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+.imagen{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+
+}
+
+.tarjeta{
+    width: 900px;
+    height: 700px;
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    position: relative;
+    padding: 25px;
+    
+    
+    
+}
+
+.celeste{
+    height: 180px;
+   background-color: rgb(9, 180, 223);
+   border-radius: 10px;
+}
+
+.contenedor-foto{
+    display: flex;
+    justify-content: center;
+    margin-top: -52px;
+    flex-direction: column;
+}
+
+.contenido{
+    text-align: left;
+    padding: 70px;
+    gap: 20px;
+    vertical-align: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 20px;
+
+
+}
+
+.boton {
+    background-color: rgba(235, 232, 232, 0.903);
+    font-family: sans-serif;
+    font-size: 20px;
+    align-items: stretch;
+    border: 8px;
+    padding: 5px;
+    
+}
